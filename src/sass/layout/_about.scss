@@ -17,7 +17,7 @@
 
     font-weight: bold;
     font-size: 25px;
-    line-height: calc(33px / 25px);
+    line-height: calc(33 / 25);
     letter-spacing: 0.065em;
   }
 
@@ -26,14 +26,14 @@
 
     font-weight: 400;
     font-size: 18px;
-    line-height: calc(24px / 18px);
+    line-height: calc(24 / 18);
     letter-spacing: 0.065em;
   }
 
   &__aft-text {
     font-weight: 400;
     font-size: 18px;
-    line-height: calc(24px / 18px);
+    line-height: calc(24 / 18);
     letter-spacing: 0.065em;
   }
 
