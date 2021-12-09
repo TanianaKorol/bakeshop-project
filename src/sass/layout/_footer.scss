@@ -1,0 +1,111 @@
+.footer {
+  background-color: $main-bg-color;
+
+  &__logo {
+    padding: 0;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+
+    color: $second-text-color;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: calc(33px / 25px);
+
+    &-item {
+      margin-left: 15px;
+    }
+  }
+
+  &__wrapper {
+    padding: 60px 270px;
+    display: flex;
+  }
+
+  &__nav-list {
+    margin-right: 90px;
+  }
+
+  &__nav-link {
+    color: $second-text-color;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: calc(20px / 15px);
+    transition: color 250ms linear, fill 250ms linear;
+  }
+
+  &__nav-item {
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+
+    &:hover .footer__nav-link {
+      color: rgb(187, 187, 187);
+      transition: color 250ms linear, fill 250ms linear;
+    }
+  }
+
+  &__address {
+    margin-right: 90px;
+
+    color: $second-text-color;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: calc(20px / 15px);
+
+    &-text {
+      margin-bottom: 15px;
+      &-title {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  &__schedule-title {
+    margin-bottom: 8px;
+  }
+
+  &__socials {
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 14px;
+      }
+    }
+
+    &-text {
+      margin-bottom: 15px;
+
+      color: $second-text-color;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: calc(20px / 15px);
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      color: $second-text-color;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: calc(13px / 10px);
+      transition: color 250ms linear, fill 250ms linear;
+
+      &:hover .footer__socials-icon,
+      &:hover {
+        color: rgb(182, 182, 182);
+        fill: rgb(182, 182, 182);
+
+        transition: color 250ms linear, fill 250ms linear;
+      }
+    }
+
+    &-icon {
+      width: 14px;
+      height: 14px;
+      margin-right: 5px;
+
+      fill: white;
+      transition: color 250ms linear, fill 250ms linear;
+    }
+  }
+}

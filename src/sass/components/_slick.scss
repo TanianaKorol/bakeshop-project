@@ -1,0 +1,24 @@
+.slick-arrow {
+  transform: scale(2);
+}
+
+.slick-next {
+  // padding-left: 50px;
+  transform: scale(5);
+  // &::before {
+  //   content: 'NEXT';
+  // }
+}
+
+.slick-prev {
+  // padding-right: 120px;
+  transform: scale(5);
+  // &::before {
+  //   content: 'PREV';
+  // }
+}
+
+.slick-track {
+  display: flex;
+  gap: 40px;
+}
