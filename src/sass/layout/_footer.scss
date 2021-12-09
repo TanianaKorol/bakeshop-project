@@ -10,7 +10,7 @@
     color: $second-text-color;
     font-weight: normal;
     font-size: 25px;
-    line-height: calc(33px / 25px);
+    line-height: calc(33 / 25);
 
     &-item {
       margin-left: 15px;
@@ -30,7 +30,7 @@
     color: $second-text-color;
     font-weight: 400;
     font-size: 15px;
-    line-height: calc(20px / 15px);
+    line-height: calc(20 / 15);
     transition: color 250ms linear, fill 250ms linear;
   }
 
@@ -51,7 +51,7 @@
     color: $second-text-color;
     font-weight: normal;
     font-size: 15px;
-    line-height: calc(20px / 15px);
+    line-height: calc(20 / 15);
 
     &-text {
       margin-bottom: 15px;
@@ -78,7 +78,7 @@
       color: $second-text-color;
       font-weight: 400;
       font-size: 15px;
-      line-height: calc(20px / 15px);
+      line-height: calc(20 / 15);
     }
 
     &-link {
@@ -87,7 +87,7 @@
       color: $second-text-color;
       font-weight: 400;
       font-size: 14px;
-      line-height: calc(13px / 10px);
+      line-height: calc(13 / 10);
       transition: color 250ms linear, fill 250ms linear;
 
       &:hover .footer__socials-icon,

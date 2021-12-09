@@ -11,7 +11,7 @@
   &__title {
     font-weight: 700;
     font-size: 25px;
-    line-height: calc(33px / 25px);
+    line-height: calc(33 / 25);
     letter-spacing: 0.065em;
 
     color: $first-text-color;
@@ -45,7 +45,7 @@
     position: relative;
     font-weight: normal;
     font-size: 20px;
-    line-height: calc(27px / 20px);
+    line-height: calc(27 / 20);
     letter-spacing: 0.065em;
 
     color: $first-text-color;
@@ -125,7 +125,7 @@
     color: $second-text-color;
     font-weight: 400;
     font-size: 19px;
-    line-height: calc(25px / 19px);
+    line-height: calc(25 / 19);
     letter-spacing: 0.065em;
   }
 
@@ -133,7 +133,7 @@
     color: $second-text-color;
     font-weight: normal;
     font-size: 15px;
-    line-height: calc(20px / 15px);
+    line-height: calc(20 / 15);
     letter-spacing: 0.065em;
   }
 }
